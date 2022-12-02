@@ -1,0 +1,100 @@
+
+body{
+    width: 1310px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    background-color: #FFFFFF;
+}
+main{
+    background-color: #FFFFFF;
+}
+header{
+    font-size: 40px;
+    color: #007D7B;
+    display: inline-block;
+    text-align: left;
+    background-color: #000000;
+    padding-right: 840px;
+}
+nav{
+    font-size: 20px;
+    color: #FFFFFF;
+    overflow:hidden;
+    text-align: right;
+    background-color: #000000;
+}
+nav :hover{
+    color: #007D7B;
+}
+nav li{
+    display: inline-block;
+    text-align: right;
+    text-decoration: none;
+    padding-left: 50px;
+}
+#top{
+    position: fixed;
+    bottom: 0;
+}
+#top :hover{
+    color: #000000;
+}
+#top p{
+    text-align: center;
+    margin: 0px;
+    color: #007D7B;
+}
+#about{
+    float:left;
+}
+#aboutp{
+    text-align: right;
+}
+.rows{
+    display: flex;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+    color: #000000;
+}
+.caption{
+    font-size: 16px;
+}
+#contact{
+    font-size: 40px;
+    color: #FFFFFF;
+}
+label{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+input{
+    font-size: 16px;
+    color: #007D7B;
+}
+#mySubmit{
+    background-color: #007D7B;
+    color: #FFFFFF;
+}
+#form{
+    text-align: center;
+    background-color: #000000;
+}
+#form p{
+    color: #FFFFFF;
+}
+input{
+    width: 300px;
+}
+#footer{
+    font-size: 16px;
+    text-align: center;
+    background-color: #000000;
+    padding-top: 10px;
+}
+#footer p{
+    color:#FFFFFF;
+}

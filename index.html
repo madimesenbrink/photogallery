@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Photogallery</title>
+        <link rel="stylesheet" href="styles.css" type="text/css">
+    </head>
+    <section>
+        <header>
+            <h1>TK Photography</h1>
+        </header>
+    </section>
+    <section>
+        <nav>
+            <ul>
+                <li>About</li>
+                <li>Gallery</li>
+                <li>Contact</li>
+                <li id="top"><p>^</p> <p>top</p></li>
+            </ul>
+        </nav>
+    </section>
+    <body>
+        <main>
+            <section id="about">
+            <img src="TK.png" alt="silhouette of man taking pictures">
+            </section>
+            <section id="aboutp">
+                <h2>About</h2>
+                    <p>Hello!</p>
+                    <p>I&apos;m TK and I&apos;m a photographer. I love looking at life through the lens of my camera. Landscape photography is my specialty and it&apos;s taken me all over the world. </p>
+            </section>
+            <section>
+                <h2>Gallery</h2>
+                    <p>Here are some highlights of my work.The locations and year are in the caption.</p>
+                    <section class="rows">
+                        <img src="Chile.png" alt="beach and rocks in chile">
+                        <p class="caption">Chile, 2001</p>
+
+                        <img src="Guatemala.png" alt="purple bushes with sunset and mountain view">
+                        <p class="caption">Guatemala, 1997</p>
+
+                        <img src="Hawaii.png" alt="arial view of mountains in hawaii">
+                        <p class="caption">Hawaii, 2010</p>
+                    </section>
+                    <section class="rows">
+                        <img src="Iran.png" alt="desert shrubbery and mountains">
+                        <p class="caption">Iran, 1999</p>
+
+                        <img src="Ireland.png" alt="green hills and trees">
+                        <p class="caption">Ireland, 2012</p>
+
+                        <img src="Italy.png" alt="winter, snow on mountains lakeside">
+                        <p class="caption">Italy, 2015</p>
+                    </section>
+                    <section class="rows">
+                        <img src="Moab-Desert.png" alt="sunset from inside rock view">
+                        <p class="caption">Moab Desert, 2020</p>
+
+                        <img src="Rocky-Mountains.png" alt="rocky mountains with rushing water">
+                        <p class="caption">Rocky Mountains, 2009</p>
+
+                        <img src="Switzerland.png" alt="snowy terrain, pine trees and mountains">
+                        <p class="caption">Switzerland, 2014</p>
+                    </section>
+                    <section class="rows">
+                        <img src="UK.png" alt="hills and greenery">
+                        <p class="caption">UK, 2005</p>
+
+                        <img src="USA.png" alt="flower fields on a cloudy day">
+                        <p class="caption">USA, 2021</p>
+
+                        <img src="Wyoming.png" alt="water, forestery and mountains">
+                        <p class="caption">Wyoming, 2021</p>
+                    </section>
+            </section>
+            </main>
+            <section id="form">
+                <h2 id="contact">Contact</h2>
+                <p>Please fill out this form and I'll connect with you soon.</p>
+                <form method="POST" action="https://webdevbasics.net/scripts/pacific.php">
+                    <label for="myName">Name</label><br>
+                    <input type="text" id="myName" name="myName" value="Your full name"><br>
+    
+                    <label for="myEmail">E-mail</label><br>
+                    <input type="email" id="myEmail" name="myEmail" value="Enter your email address"><br>
+    
+                    <label for="myMessage">Message</label><br>
+                    <input type="text" id="myMessage" name="myMessage" value="What can I help you with?"><br>
+    
+                    <label for="mySubmit"></label><br>
+                    <input type="submit" id="mySubmit" name="mySubmit"><br>
+                </form>
+            </section>
+        <footer id="footer">
+            <p>Copyright 2021 TK Photography</p>
+        </footer>
+    </body>
+</html>
+
+
